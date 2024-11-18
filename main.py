@@ -3,8 +3,8 @@ import openai
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from the .env file
-load_dotenv(dotenv_path=r'C:\Users\sauln\OneDrive\Documents\CSC Practice\fp9.env')
+# Copy path to env file here
+load_dotenv(dotenv_path=r'')
 client = openai.OpenAI(
 api_key = os.getenv('OPENAI_API_KEY'),
 )
